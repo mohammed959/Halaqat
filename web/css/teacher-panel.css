@@ -1,0 +1,74 @@
+#content-container {
+    background: #f9f9f9;
+    width: 1000px;
+    margin: 115px auto 0 auto;
+    padding: 25px 50px;
+}
+
+#recitations-edit-table {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#recitations-edit-table input[type='text'] {
+    width: 75px;
+}
+
+#recitations-edit-table select {
+    padding: 5px 0;
+}
+
+#halaqa-students-form .save {
+    display: block;
+    margin: 50px auto;
+}
+
+#current-semester-grades {
+    font-weight: normal;
+    font-size: 18pt;
+    display: block;
+}
+
+.grade-input {
+    margin-top: 0;
+    width: 50px;
+}
+
+#previous-grades {
+    text-decoration: none;
+}
+
+#students-grades-table caption {
+    font-size: 18pt;
+    margin-bottom: 25px;
+    color: #E96463;
+}
+
+#save-grades {
+    margin: 50px auto;
+    display: block;
+}
+
+#section-title {
+    font-weight: normal;
+    font-size: 18pt;
+    color: #E96463;
+    text-align: center;
+}
+
+#grades-selection-form {
+    margin-top: 25px;
+}
+
+#grades-selection-form label {
+    color: #486B8A;
+    font-weight: bold;
+}
+
+#grades-selection-form select {
+    margin: 0 10px;
+}
+
+#previous-students-grades-table {
+    margin-top: 20px;
+}

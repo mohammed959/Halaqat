@@ -1,0 +1,39 @@
+#content-container{
+    margin:150px auto 0;
+    width:1000px;
+    background: #f9f9f9;
+}
+
+
+#section-title {
+    font-weight: normal;
+    font-size: 18pt;
+    color: #E96463;
+    text-align: center;
+}
+
+#student-recitations-table{
+    width: 1000px;
+    margin:25px auto;
+}
+#student-recitations-table tr td
+{
+   width: 100px ;
+    direction: rtl;
+    color: black;
+}
+
+.options-selection
+{
+    margin: 0 auto;
+    height: 40px;
+    width:1000px;
+}
+.year
+{
+  margin-right: 20px  ;
+}
+.month
+{
+    margin-right: 20px;
+}

@@ -1,0 +1,383 @@
+* {
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Cairo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#index-body {
+    background: url(/images/bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+html {
+    min-height: 100%; /* make sure it is at least as tall as the viewport */
+    position: relative;
+}
+
+body {
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    height: 100%; /* force the BODY element to match the height of the HTML element */
+    background: #f9f9f9;
+}
+
+#login-container, #change-password-container {
+    margin: 300px auto 0;
+    width: 400px;
+    background: #fdfdfd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#change-password-container {
+    border: 1px solid #ccc;
+}
+
+#login-container form {
+    padding: 5px;
+}
+
+#login-container h3, #change-password-container h3 {
+    text-align: center;
+    background: #486B8A;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 16pt;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+}
+
+#login-container #national-id, #login-container #password {
+    display: block;
+    margin: 15px auto;
+    width: 250px;
+    padding: 12px;
+}
+
+#login-btn {
+    margin: 25px auto;
+    display: block;
+    padding: 15px 50px;
+    font-size: 16px;
+}
+
+#header-container {
+    background: #58B4AB;
+    margin: 0;
+    height: 75px;
+    padding: 0 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #4C9890;
+    z-index: 1;
+}
+
+#header-container h1 {
+    margin: 0 auto;
+    color: #fff;
+    display: inline;
+    line-height: 75px;
+    font-size: 16pt;
+    font-weight: normal;
+    font-family: 'Cairo', sans-serif;
+}
+
+#header-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#user {
+    position: relative;
+    float: left;
+}
+
+#user-name {
+    color: #fff;
+    font-size: 14pt;
+    padding: 10px 15px;
+    margin-top: 15px;
+    cursor: default;
+    display: block;
+}
+
+#user-name span {
+    color: #fff;
+    margin-right: 10px;
+}
+
+#user:hover #user-options {
+    display: block;
+}
+
+#user-options {
+    display: none;
+    position: absolute;
+    background: #f9f9f9;
+    min-width: 160px;
+    z-index: 10;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+#user-options a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#user-options a:hover {
+    background-color: #f1f1f1
+}
+
+.navbar-container {
+    background: #486B8A;
+    height: 40px;
+    position: fixed;
+    top: 75px;
+    right: 0;
+    left: 0;
+}
+
+.navbar {
+    margin: 0 auto;
+    height: 40px;
+    width: 1000px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li a {
+    float: right;
+    height: 40px;
+    text-decoration: none;
+    padding: 0 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.navbar ul li a:hover {
+    background: #527799;
+}
+
+.navbar ul li a:active, .navbar ul .active {
+    background: #416381;
+}
+
+table {
+    border: 1px solid #bababa;
+    border-collapse: collapse;
+    color: #333;
+    text-align: center;
+}
+
+table thead th {
+    background: #66638B;
+    font-weight: normal;
+}
+
+table, table th, table td {
+    border: 1px solid #bababa;
+    padding: 10px 20px;
+}
+
+table th {
+    color: #ffffff;
+}
+
+table td, table th {
+    background: #ffffff;
+}
+
+table tfoot td {
+    background: #486B8A;
+    color: #fff;
+}
+
+#attendance-table {
+    margin-bottom: 10px;
+}
+
+#attendance-table th, #attendance-table td {
+    padding: 10px 3px;
+    min-width: 15px;
+}
+
+#attendance-table th:not(:first-of-type) span {
+    writing-mode: tb-rl;
+    writing-mode: sideways-lr;
+    height: 115px;
+    width: 25px;
+    color: #ffffff;
+}
+
+.edit-icon {
+    text-decoration: none;
+    margin: 0 5px;
+    color: #58B4AB;
+}
+
+.delete-icon {
+    text-decoration: none;
+    margin: 0 5px;
+    color: #E96463;
+}
+
+.button-primary {
+    padding: 5px 20px;
+    background: #66638B;
+    border: 1px solid #565376;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.button-red {
+    padding: 5px 20px;
+    background: #E96463;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #ffffff;
+    border: 1px solid #ca5453;
+}
+
+.button-red:hover {
+    background: #f46665;
+}
+
+.button-green {
+    padding: 5px 20px;
+    background: #58B4AB;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #ffffff;
+    border: 1px solid #4a9c94;
+}
+
+.button-green:hover {
+    background: #5ec1b7;
+}
+
+.button-primary:hover {
+    background: #74719e;
+}
+
+.text-input {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 5px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    font-size: 14pt;
+    margin-top: 10px;
+}
+
+.select-input {
+    padding: 5px 20px;
+    background: #f4f4f4;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+}
+
+#recitation-options * {
+    margin: 0 10px;
+}
+
+.no-recitation, .vacation-day, .disabled-cell {
+    background: #f3f3f3 !important;
+}
+
+.primary-color {
+    color: #58B4AB;
+}
+
+.error-message, .success-message, .info-message {
+    padding: 10px 20px;
+    color: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.error-message {
+    background: #E96463;
+    border: solid 1px #c35b5a;
+}
+
+.success-message {
+    background: #54b470;
+    border: solid 1px #499156;
+}
+
+.info-message {
+    background: #54b4ff;
+    border: solid 1px #4191cc;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.red-color {
+    color: #E96463;
+}
+
+.green-color {
+    color: #54b470;
+}
+
+.blue-color {
+    color: #54b4ff;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #section-to-print, #section-to-print * {
+        visibility: visible;
+    }
+
+    #section-to-print {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 50px;
+    }
+
+    .not-print {
+        display: none !important;
+    }
+}
+
+.print-button {
+    float: left;
+}

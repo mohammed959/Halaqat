@@ -1,0 +1,219 @@
+#section-title {
+    color: #E96463;
+    font-weight: normal;
+    font-size: 18pt;
+}
+
+#menu-container {
+    float: right;
+    background: #486B8A;
+    width: 250px;
+    position: fixed;
+    top: 75px;
+    bottom: 0;
+    right: 0;
+    overflow: scroll;
+}
+
+#menu-container ul {
+    margin: 25px 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu-container ul span {
+    font-size: 14pt;
+    color: #fff;
+    display: block;
+    background: #3c5d79;
+    padding: 5px 15px;
+}
+
+#menu-container ul li a {
+    text-decoration: none; /* Cancel default underlined style*/
+    color: #fff;
+    font-size: 12pt;
+    display: block;
+    padding: 5px 25px;
+    border-bottom: solid 1px #3c5d79;
+}
+
+#menu-container ul li a:hover {
+    background: #416582;
+}
+
+.current-item {
+    color: #ffffff !important;
+}
+
+#content-container {
+    margin-top:75px;
+    margin-right: 250px;
+    padding: 25px;
+}
+
+#statistics {
+    line-height: 200%;
+    color: #393939;
+    margin-top:15px;
+}
+#statistics span:first-of-type{
+    font-size:16pt;
+}
+
+#halqat-students {
+    margin: 0 auto;
+}
+
+#halqat-students th {
+    padding: 10px 50px;
+}
+
+/*
+    All Employees
+*/
+#employees-table {
+    margin: 25px auto;
+    font-size: 14pt;
+}
+
+/*
+    Create Edit Employee
+*/
+
+.input-item {
+    margin-top: 20px;
+}
+
+.input-item label {
+    display: inline-block; /* Width can be set without displaying it separately*/
+    width: 150px;
+    color: #476b8a;
+}
+
+#employee-info-form #save {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 40px;
+    font-size: 16pt;
+}
+
+/*
+    All Halaqat
+*/
+#halaqat-table {
+    margin: 25px auto;
+}
+
+/*
+    Halaqa Students
+*/
+
+#halaqa-selection {
+    margin-top: 50px;
+}
+
+#halaqa-selection * {
+    margin-right: 10px;
+}
+
+#halaqa-students-table, #student-search-results, #parent-search-results {
+    margin: 40px auto;
+}
+
+.parent-icon {
+    text-decoration: none;
+    color: #476b8a;
+}
+
+/*
+    Search for Student, Parent
+*/
+.search-choice {
+    margin-top: 15px;
+}
+
+.search-choice span {
+    display: inline-block;
+    width: 150px;
+}
+
+#search-button {
+    margin-top: 15px;
+    margin-right: 170px;
+}
+
+/*
+    Show Parent
+*/
+
+.data-item {
+    margin-top: 20px;
+}
+
+.data-item span:first-of-type {
+    color: #476b8a;
+    display: inline-block;
+    width: 150px;
+}
+
+#children-list {
+    margin-right: 150px;
+}
+
+#parent-options {
+    width: 280px;
+    margin: 50px auto;
+}
+
+#parent-options a {
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+/*
+    Create/Edit Parent
+*/
+
+#create-edit-parent-form label {
+    display: inline-block;
+    width: 125px;
+    color: #476b8a;
+}
+
+#create-edit-parent-form .button-save {
+    margin: 0 140px;
+}
+
+/*
+    Create/Edit Student
+*/
+
+#create-edit-student-form label {
+    display: inline-block;
+    width: 170px;
+    color: #476b8a;
+
+}
+
+#create-edit-student-form .save {
+    margin: 0 180px;
+}
+
+.no-result {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.settings-item{
+    font-weight: normal;
+    margin-top: 25px;
+}
+.settings-item-container{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+#semester-options{
+    margin-top: 20px;
+}
